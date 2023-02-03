@@ -10,14 +10,14 @@ BootStrap을 이용하여 TinDog 이라는 가상 사이트를 생성해 보기
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-- [Author](#author)
+
 
 
 ## Overview
 
 ### Screenshot
 
-![my-privew](https://user-images.githubusercontent.com/14327580/216262354-ced24d9f-9c74-4f0b-bfb8-3beadfd632e7.png)
+![]()
 
 
 ### Links
