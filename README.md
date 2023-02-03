@@ -37,5 +37,6 @@ BootStrap을 이용하여 TinDog 이라는 가상 사이트를 생성해 보기
 
     - BootStrap  설정 
         - Grid
-        - Navbar 
+        - Navbar
+        - carousel 
 
