@@ -57,3 +57,33 @@ body{
     width: 60%;
     transform: rotate(15deg);    
 }
+
+/* feature section 스타일 추가 */
+#features{
+    padding: 7% 15%;
+    margin-bottom: 1rem;
+}
+#features ion-icon{
+    color:#ef8172;
+    width: 50px;
+    height: 50px;
+}
+
+#features ion-icon:hover {
+    color:#ff4c68;
+  
+}
+
+#features h3{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+#features p{
+    color: #8f8f8f;
+}
+
+#features .features-container{
+    text-align: center;
+    font-family: 'Montserrat';  
+}
