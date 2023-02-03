@@ -87,3 +87,39 @@ body{
     text-align: center;
     font-family: 'Montserrat';  
 }
+
+/* testimonials section */
+#testimonials{
+    background-color: #ef8172;
+    padding: 7% 15%;
+    text-align: center;
+    color: white;
+}
+
+#testimonials .carousel-item{
+    padding: 0% 15%;
+}
+
+#testimonials h2{
+    font-family: 'Montserrat';  
+    font-size: 3rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+}
+
+#testimonials img{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#press img{
+    width: 15%;
+    margin:  20px 20px 50px;
+}
