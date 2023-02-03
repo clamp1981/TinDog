@@ -1,4 +1,9 @@
 
+
+body{
+    font-family: 'Montserrat';  
+}
+
 /* section의 id title에 스타일 적용  */
 #title{
     background-color: #ff4c68;
@@ -10,4 +15,45 @@
     font-size: 3rem;  
     line-height: 1.5;  
     font-weight: 900;
+    color:white;
+}
+
+#title .container-fluid{
+    padding: 3% 15%;
+}
+
+/* navbar 스타일 적용 */
+#title .navbar{
+    padding-bottom: 4rem;
+}
+#title .navbar-brand{
+    font-family: 'Ubuntu'; 
+    font-size: 2.0rem;
+    font-weight: bold; 
+}
+
+#title .nav-item{
+    padding: 0 18px 0 0;
+}
+
+#title .nav-link{
+    font-family: 'Montserrat'; 
+    font-size: 1.05rem;
+}
+
+/* 다운로드 버튼 스타일 적용 */
+#title .download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* title 이미지 수평 수직 정렬 */
+#title .img-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* title 이미지 회전 */
+#title .title-img{
+    width: 60%;
+    transform: rotate(15deg);    
 }
