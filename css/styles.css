@@ -7,6 +7,7 @@ body{
 /* section의 id title에 스타일 적용  */
 #title{
     background-color: #ff4c68;
+   
 }
 
 /* section의 id title에 h1 속성 스타일 적용 */
@@ -41,27 +42,26 @@ body{
     font-size: 1.05rem;
 }
 
+
+
 /* 다운로드 버튼 스타일 적용 */
 #title .download-button{
     margin: 5% 3% 5% 0;
 }
 
-/* title 이미지 수평 수직 정렬 */
-#title .img-div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-/* title 이미지 회전 */
-#title .title-img{
+/* title 이미지 */
+#title .title-img{   
     width: 60%;
-    transform: rotate(15deg);    
+    transform: rotate(15deg); 
 }
 
 /* feature section 스타일 추가 */
 #features{
     padding: 7% 15%;
     margin-bottom: 1rem;
+    background-color: #ffffff ;
+   
+    
 }
 #features ion-icon{
     color:#ef8172;
@@ -142,5 +142,15 @@ body{
 #pricing h2{
     font-family: 'Montserrat';  
     font-weight: bold; 
+}
+
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+    #title .title-img{
+        position: static;
+        transform: rotate(0); 
+    }
 }
 
