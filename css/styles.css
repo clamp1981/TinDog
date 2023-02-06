@@ -45,7 +45,7 @@ body{
 
 
 /* 다운로드 버튼 스타일 적용 */
-#title .download-button{
+.download-button{
     margin: 5% 3% 5% 0;
 }
 
@@ -142,6 +142,31 @@ body{
 #pricing h2{
     font-family: 'Montserrat';  
     font-weight: bold; 
+}
+
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#cta h3{
+    font-family: 'Montserrat';  
+    font-size: 3.5rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+    color:white;
+    padding-bottom: 20px;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.sns-icon{
+    font-size: 20px;
+    margin: 10px 10px;
 }
 
 @media (max-width:1028px) {
