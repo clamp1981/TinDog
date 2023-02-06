@@ -123,3 +123,24 @@ body{
     width: 15%;
     margin:  20px 20px 50px;
 }
+
+#pricing{
+    font-family: 'Montserrat';  
+    padding: 80px 100px;
+    
+}
+
+#pricing .card-header{
+    font-weight: bold;
+
+}
+#pricing .price-column{
+    text-align: center;
+    padding-top: 3%;
+}
+
+#pricing h2{
+    font-family: 'Montserrat';  
+    font-weight: bold; 
+}
+
