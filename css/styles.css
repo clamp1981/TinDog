@@ -76,16 +76,31 @@ h1,h2,h3 {
 }
 
 /* title 이미지 */
-#title .title-img{   
+/* #title .title-img{   
     width: 60%;
     transform: rotate(15deg); 
+} */
+
+.parent-title-img{
+    position: relative;
+}
+
+/* position: absolute 부모 기준으로 위치 선정 */
+/* 부모가 position이 없으면 최상단 기준으로 위치 선정을 하므로 위치및 크기가 이상해짐*/
+.title-img{   
+    width: 60%;
+    transform: rotate(15deg); 
+    position: absolute;
+    right: 30%;
 }
 
 /* feature section 스타일 추가 */
-#features{   
-    margin-bottom: 1rem;
+#features{       
     background-color: #ffffff ;
+    position: relative;
+    z-index: 1;
 }
+
 #features ion-icon{
     color:var(--sub-color);
     width: 50px;
